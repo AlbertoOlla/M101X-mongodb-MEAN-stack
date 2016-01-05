@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "mocha test.js",
+    "test-kitten": "mocha -R nyan test.js"
+  },
+  "dependencies": {
+    "mocha": "2.2.4"
+  }
+}
