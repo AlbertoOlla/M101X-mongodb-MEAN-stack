@@ -1,5 +1,30 @@
-# Code Exercise
+# Homework 3 and Quiz results
 
+##  Homework 3.1 
+Which of the following HTTP verbs corresponds to the "update" operation in the CRUD acronym?
+
+* POST
+* PUT `correct`
+* GET
+* HEAD
+* DELETE
+
+## Homework 3.2
+Which of the following will correctly generate an Express route handler with access to the `Product` service?
+
+
+* wagner.invoke(function(Product, req, res) {});
+* wagner.invoke(function(req, res) {});
+* wagner.invoke(function(Product) { return function(req, res) {}; }); `correct`
+
+## Homework 3.3
+Which of the following best describes the REST API testing paradigm used in this part?
+
+* The tests are responsible for starting the API server and sending HTTP requests to the server `correct`
+* The tests send HTTP requests to a server you started manually
+* You're responsible for manually setting up a data set to run tests 
+
+## Code Exercise
 In this part, you set up several REST API endpoints:
 
 * `GET /category/id/:id`
