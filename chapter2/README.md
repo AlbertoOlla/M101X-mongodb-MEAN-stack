@@ -1,4 +1,22 @@
-# Code Exercise
+# Homework 2 and Quiz results
+
+Suppose you're building an application that has 2 collections: students and courses. A course can have many students, and a student can take up to 6 courses. Each course has a unique course number, like CS-101, and each student can take each course at most once.
+
+## Homework 2.1
+Given the principle "store what you query for," which of the following would be the best choice for the _id field of the courses collection?
+
+* A MongoDB object id
+* The course number, for instance CS-101 `correct`
+* An automatically-incremented integer
+
+## Homework 2.2
+Students and courses have a many-to-many relationship. Given the principle of least cardinality, which of the following would be the best way to store this many-to-many relationship?
+
+* Courses should contain an array of IDs referring to the students taking the course.
+* Courses should embed an array of student documents representing all students taking the course.
+* Students should contain an array of course numbers referring to the courses a student is taking. `correct`
+
+## Homework 2.3
 
 There are two files that you will need to work with, `course.js` and
 `student.js`. After you've run `npm install`, run `npm run watch` to start
