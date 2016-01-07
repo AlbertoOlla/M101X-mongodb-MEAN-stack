@@ -1,3 +1,7 @@
+# Homework 1
+
+## Homework 1.1
+
 For this section's assessment, you will fill out the functions defined in
 `interface.js`. These functions will query a collection of movies - the
 data in the movies collection will look like what you see in the `movies.json`
@@ -11,3 +15,6 @@ time you change the `interface.js` file. Once the tests succeed, `npm run watch`
 will terminate and print a "secret code" consisting of a short phrase.
 Copy this code into the assessment page in your browser to complete this
 assessment.
+
+#### Answer
+Enter secret code here: `the mean stack awakens`

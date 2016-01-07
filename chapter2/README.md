@@ -41,3 +41,6 @@ a student should take before taking this course.
 Once you have met all of these requirements, `npm run watch` will exit and
 provide you a secret phrase. Please enter this code in your browser window
 so we can verify that you completed this exercise.
+
+#### Answer
+Enter secret code here: `of course`

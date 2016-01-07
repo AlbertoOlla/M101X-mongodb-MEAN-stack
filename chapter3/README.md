@@ -81,6 +81,9 @@ run `npm run check-credentials`. If you have entered keys successfully,
 Please enter that phrase in your browser to validate
 that you have successfully completed this exercise.
 
+#### Answer
+Enter secret code here: `earn your stripes`
+
 ## Homework 3.5
 
 There are 3 places where you access environment variables:
@@ -100,3 +103,6 @@ Once you have successfully entered your keys into `config.json` and modified
 the above 3 code locations to use the `Config` service, `npm run watch` will
 output a short phrase. Please enter that phrase in your browser to validate
 that you have successfully completed this exercise.
+
+#### Answer
+Enter secret code here: `finished the REST`
