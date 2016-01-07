@@ -1,0 +1,31 @@
+<html ng-app="myApp">
+  <head>
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js">
+    </script>
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.js">
+    </script>
+
+    <script type="text/javascript">
+      var app = angular.module('myApp', ['ng', 'ngRoute']);
+
+      app.config(function($routeProvider) {
+        $routeProvider.
+          when('/', {
+            templateUrl: '/7-examples/home.html',
+            controller: function($scope) {
+              $scope.linkText = 'about';
+            }
+          }).
+          when('/about', {
+            templateUrl: '/7-examples/about.html'
+          });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div ng-view></div>
+  </body>
+</html>

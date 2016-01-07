@@ -1,0 +1,22 @@
+<html ng-app="myApp">
+  <head>
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js">
+    </script>
+
+    <script type="text/javascript">
+      var app = angular.module('myApp', ['ng']);
+
+      app.controller('MyController', function($scope) {
+        $scope.counter = 0;
+      });
+    </script>
+  </head>
+
+  <body>
+    <div  ng-controller="MyController"
+          ng-click="counter = counter + 1">
+      You've clicked this div {{counter}} times
+    </div>
+  </body>
+</html>
