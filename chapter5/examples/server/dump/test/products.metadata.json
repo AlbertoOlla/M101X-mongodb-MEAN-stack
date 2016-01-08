@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":NumberInt(1),"key":{"_id":NumberInt(1)},"name":"_id_","ns":"test.products"},{"v":NumberInt(1),"key":{"_fts":"text","_ftsx":NumberInt(1)},"name":"name_text","ns":"test.products","background":true,"safe":null,"weights":{"name":NumberInt(1)},"default_language":"english","language_override":"language","textIndexVersion":NumberInt(2)}]}
