@@ -1,3 +1,23 @@
+# Homework 5 and Quiz results
+
+## Homework 5.1
+Why is it better to compile the templates for your AngularJS directives in your Ionic app rather than fetching them over HTTP?
+
+* Because Ionic can't fetch templates over HTTP
+* Because of CORS restrictions
+* So the templates are downloaded when the app is downloaded from the app store `correct`
+* So Ionic can serve the templates from a web server running on your phone
+* So you don't have to download the templates until the app is run
+
+## Homework 5.2
+Which of the following is not true about the relationship between Angular UI Router and `ngRoute`?
+
+* Angular UI Router allows you to save state when switching tabs, `ngRoute` does not 
+* They both use URLs to uniquely identify views
+* They both associate a template and a controller with a view
+* They both use the same service for route parameters `correct`
+
+
 # Code Exercise
 
 In this exercise, you will implement the search view for the mobile app.
@@ -32,3 +52,6 @@ LOG: 'Tests Succeeded! Copy/paste the below code to complete this assignment:'
 LOG: '<secret code here>'
 Chrome 43.0.2357 (Linux): Executed 4 of 4 SUCCESS (0.21 secs / 0.126 secs)
 ```
+
+#### Answer
+Enter secret code here: `ionic bonds`
